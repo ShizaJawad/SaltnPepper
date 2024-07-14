@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+html{
+    font-size: 62.5%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    gap: 950px;
+}
+
+.Navigation{
+    font-size: 2rem;
+
+}
