@@ -19,3 +19,25 @@ html{
     font-size: 2rem;
 
 }
+span.logo-text{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+/* figure{
+    width: 98%;     
+} */
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+p{
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
