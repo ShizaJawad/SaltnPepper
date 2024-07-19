@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* navbar started */
+
+
+.logo{
+    width: 185px;
+}
+
+.navbar{
+    gap: 700px;
+    margin-top: 20px;
+    color: var(#ffffff);
+    font-size: 2rem;
+}
+
+.text-none{
+    text-decoration: none;
+    color: #ffffff;
+    justify-content: space-evenly;
+}
+
+.Franchise-btn{
+    padding: 15px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+}
+
+.Order-btn{
+    width: 130px;
+    background-color: #ed1c24;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 15px;
+
+}
+
+h3{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1.7rem;
+}
+
+/* navbar ended */
+
+/* main started */
+
+.merge{
+    margin: 20px;
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+}
+
+.location{
+    display: inline;
+    margin: 30px;
+}
+
+.red{
+    letter-spacing: 5px;
+    color: #ed1c24;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+/* main ended */
+
+/* footer started */
+
+
+
+
+
+
+
+
+
+
+/* footer ended */
