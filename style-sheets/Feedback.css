@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.container{
+    position: relative;
+}
+
+.overlay-text{
+position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn{
+  border-radius: 20px;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.star{
+  padding: 30px;
+}
+
+.info{
+  padding: 0 20px;
+}
+

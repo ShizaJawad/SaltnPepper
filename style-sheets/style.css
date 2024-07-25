@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Apercu;
+    src: url(./../font/Apercu\ Font\ Family);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,20 +22,47 @@ html{
 }
 
 .navbar{
-    gap: 700px;
     margin-top: 20px;
     color: var(#ffffff);
     font-size: 2rem;
+    justify-content: end;
+    align-items: center;
+    gap: 600PX;
 }
 
-.text-none{
+.menu{
+    display: none;
+}
+
+@media(max-width: 500){
+    body{
+        background-color: #000;
+    }
+    .nav-items{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: start;
+    }
+}
+
+a{
     text-decoration: none;
-    color: #ffffff;
+    color: white;
+}
+
+.nav-items{
+    display: flex;
+    gap: 20px;
     justify-content: space-evenly;
+
 }
 
 .Franchise-btn{
-    padding: 15px;
+    padding: 12px;
+    width: 150PX;
     background-color: transparent;
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -38,12 +70,13 @@ html{
 }
 
 .Order-btn{
-    width: 130px;
+    width: 140px;
     background-color: #ed1c24;
     color: #ffffff;
     border-radius: 25px;
-    padding: 15px;
-
+    padding: 7px;
+    text-align: center;
+    gap: 5px;
 }
 
 h3{
@@ -52,11 +85,17 @@ h3{
 
 p{
     font-size: 1.7rem;
+    color: #969496;
+    text-align: center;
 }
 
 /* navbar ended */
 
 /* main started */
+
+.text{
+    margin-top: 50px;
+}
 
 .merge{
     margin: 20px;
@@ -64,6 +103,7 @@ p{
 }
 
 .btn{
+    margin: 20px;
     padding: 10px;
     border-radius: 30px;
     width: 150px;
@@ -75,8 +115,9 @@ p{
 }
 
 .location{
-    display: inline;
-    margin: 30px;
+    width: 50%;
+    display: block;
+    justify-content: left;
 }
 
 .red{
@@ -88,16 +129,182 @@ h4{
     font-size: 2rem;
 }
 
+.isb{
+    margin: 50px 200px;
+}
+
+.image{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+b{
+    font-size: 3rem;
+}
+
+.Directions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+
+.Directions-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 260px;
+    
+}
+.location-2{
+    width: 50%;
+    display: block;
+    justify-content: left;
+    text-align: left;
+    
+    
+}
+
+.image-2{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.red-x{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: red;
+    letter-spacing: 5px;
+    margin: 25px;
+}
+
+.name{
+    font-size: 1.8rem;
+    color: white;
+    margin: 15px;
+}
+
+.size{
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+.Directions-exp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.exp-head{
+    font-size: 4rem;
+    margin: 20px;
+}
+
+.village{
+    align-items: center;
+}
+
+.size-v{
+    margin-left: 30px;
+}
+
+.head-text{
+    text-align: center;
+    margin: 20px;
+    padding: 10px
+}
+.small{
+    font-size: 1.3rem;
+    color: #ed1c24;
+    letter-spacing: 5px;
+}
+
+.white{
+    text-align: center;
+    background-color: #ffffff;
+    color: #000;
+    padding: 30px;
+    font-size: 1.8rem;
+}
+.black{
+    color: black;
+    font-size: 2.5rem;
+}
+
+.feed{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
 /* main ended */
 
 /* footer started */
 
+.footer{
+    font-size: 1.8rem;
+    margin: 20px 50px;
+    color: #858285;
+    justify-content: center;
+}
 
+table{
+    width: 1000px;
+}
 
+td{
+    padding-left: 30px;
+    padding: 5px;
+    width: 50px;
+}
 
+.link{
+    padding: 30px;
+}
 
+.heading{
+    color: #ffffff;
+}
 
+.icon-btn{
+    background-color: #ed1c24;
+    padding: 7px;
+    border-radius: 22px;
+}
 
+.app-btn{
+    background-color: #000000;
+    width: 160px;
+    color: white;
+}
+
+.app-icon{
+    display: flex;
+    justify-content: center;
+}
 
 
 
